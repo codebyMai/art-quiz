@@ -13,10 +13,45 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/.favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+
     
+    <!--css stylesheet-->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+
     <title>Test your art knowledge</title>
 </head>
 <body>
-    
+    <!--header-->
+    <header>
+
+    </header>
+    <!--main content-->
+    <main>
+        <div id="start">
+            <div id="background">
+                <div id="instruct">
+                    <h2>Instructions</h2>
+                    <ul>
+                        <li>You will be shown 3 paintings by famous artists.</li>
+                        <li>Your goal is to name the painter by selecting one out of the three names.</li>
+                        <li>To beign press Start Quiz button.</li>
+                    </ul>
+                </div> 
+                <button id="start-btn">Start Quiz!</button>
+            </div>   
+        </div>
+        <div id="quiz" style="display: none">
+            <div id="art"></div>
+            <div id="question"></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+            </div>
+        </div>   
+    </main>
+    <!--footer-->
+    <footer></footer>
+    <script src="assets/js/script.js"></script>   
 </body>
 </html>
