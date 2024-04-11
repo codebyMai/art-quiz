@@ -83,6 +83,7 @@ ul {
 #question {
     display: flex;
     justify-content: center;
+    text-align: center;
     color: #D7E8F1;
     background-color: #4A5C6D;
 }
@@ -122,3 +123,26 @@ footer {
     position: fixed;
     bottom:0%;
 }
+@media screen and (max-width: 600px) {
+    #art {
+        height: 400px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    #instruct {
+        font-size: 15px;
+    }
+    #start-btn {
+        font-size:18px;
+    }
+    #question p{
+        font-size: 0.7em;
+    }
+    #choices {
+        font-size: 0.7em;
+    }
+    }

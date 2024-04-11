@@ -51,6 +51,7 @@ let score = 0;
 
 
 // display question
+
 function displayQuestion(){
     let i = questions[runningQuestion];
     
@@ -62,6 +63,7 @@ function displayQuestion(){
 }
 
 // start quiz
+
 start.addEventListener("click",startQuiz);
 
 
