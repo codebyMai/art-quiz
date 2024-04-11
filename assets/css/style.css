@@ -19,11 +19,32 @@ h1 {
     font-family: Permanent Marker;
     text-align: center;
     color: #04162B;
-    background-color: #91A2AF;
+    background-color: #D7E8F1;
     padding: 10px;
 } 
 h2 {
     font-size: 25px;
     color: #04162B;
     padding: 10px;
+}
+#instruct {
+    font-size: 20px;
+    color: #04162B;
+    border-radius: 5px;
+    background-color: #91A2AF;
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 20px;
+}
+ul {
+    list-style-type: none; 
+}
+#background {
+    background: 
+    url('/assets/images/start.png')
+    no-repeat;
+    width: 100%;
+    background-size: 100% ;
+    min-height: 100vh;
 }
