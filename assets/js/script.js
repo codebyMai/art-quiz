@@ -18,10 +18,29 @@ let questions = [
         answerB : "Edouardo Manet",
         answerC : "Pablo Picasso",
         correct : "A",
-        right : "uuuu",
-        wrong : "eee"
+        right : "Gustav Klimt painted this portrait of 9 year old Mäda Primavesi in 1912.",
+        wrong : "This portrait was painted by Gustav Klimt, a prominent member of the Vienna Secession movement."
     },
-    
+    {
+        question : "The artist who painted this portrait has famously offered to repaint Michelangelo's Sistine Chapel. What was his name? ",
+        art : "assets/images/elgreco.png",
+        answerA : "Claude Monet",
+        answerB : "El Greco",
+        answerC : "Henri Rousseau",
+        correct : "B",
+        right : "Dominikos Theotokopoulos widely known as El Greco painted 'A Boy Blowing on an Ember to Light a Candle'",
+        wrong : "Correct answer is El Greco. You might want to brush up on your Spanish Renaissance knowledge."
+    },
+    {
+        question : "This portrait is a work of the official Court Painter of King Henry the VIII. His name was...?",
+        art : "assets/images/hholbein.png",
+        answerA : "Amedeo Modigliani",
+        answerB : "Georges Seurat",
+        answerC : "Hans Holbein",
+        correct : "C",
+        right : "'Portrait of a Lady with a Squirrel and a Starling' is one of many that gained Hans Holbein the Younger reputation of the greatest portraitists of the 16th century. ",
+        wrong : "This portrait was painted by Hans Holbein the Younger, It is a great example of Northern Renaissance style."
+    }
     
 ];
 // question variables
@@ -43,7 +62,6 @@ function displayQuestion(){
 }
 
 // start quiz
-
 start.addEventListener("click",startQuiz);
 
 
@@ -63,14 +81,17 @@ function reStartQuiz(){
     runningQuestion = 0;
 }
 
-// check answers
+// check answers and display personalized comments
 
 function checkAnswer(answer){
+    let d = questions[runningQuestion];
+    let right = d.right;
+    let wrong = d.wrong;
     if( answer == questions[runningQuestion].correct){
         score++;
-        alert("Well done! You know your art!");
+        alert(`You are right! ${ right } `);
     }else{
-        alert("Better luck next time!");
+        alert(`You are wrong! ${ wrong } `);
     }
 
     if(runningQuestion < lastQuestion){
@@ -79,9 +100,9 @@ function checkAnswer(answer){
     }else{
         // display score and restart quiz
         displayScore();
-        reStartQuiz();
+        reStartQuiz()
     }
-} 
+}
 // display score alert 
 
 function displayScore(){
