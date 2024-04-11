@@ -18,26 +18,11 @@ let questions = [
         answerB : "Edouardo Manet",
         answerC : "Pablo Picasso",
         correct : "A",
-        right : "bla bla",
-        wrong : "tut tut"
+        right : "uuuu",
+        wrong : "eee"
     },
-    {
-        question : "The artist who painted this portrait has famously offered to repaint Michelangelo's Sistine Chapel. What was his name? ",
-        art : "assets/images/elgreco.png",
-        answerA : "Claude Monet",
-        answerB : "El Greco",
-        answerC : "Henri Rousseau",
-        correct : "B",
-        right : "bleh"
-    },
-    {
-        question : "This portrait is a work of the official Court Painter of King Henry the VIII. His name was...?",
-        art : "assets/images/hholbein.png",
-        answerA : "Amedeo Modigliani",
-        answerB : "Georges Seurat",
-        answerC : "Hans Holbein",
-        correct : "C"
-    }
+    
+    
 ];
 // question variables
 
@@ -94,7 +79,7 @@ function checkAnswer(answer){
     }else{
         // display score and restart quiz
         displayScore();
-        reStartQuiz()
+        reStartQuiz();
     }
 } 
 // display score alert 

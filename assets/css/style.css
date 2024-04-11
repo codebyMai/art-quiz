@@ -1,3 +1,29 @@
-body {
-    background-color: aqua;
+/* google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Permanent+Marker&family=Walter+Turncoat&display=swap');
+
+/* reset styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main {
+    background-color: #D7E8F1;
+    min-height: 100vh;
+}
+body{
+    font-size: 18px;
+    font-family: Montserrat;
+} 
+h1 {
+    font-family: Permanent Marker;
+    text-align: center;
+    color: #04162B;
+    background-color: #91A2AF;
+    padding: 10px;
+} 
+h2 {
+    font-size: 25px;
+    color: #04162B;
+    padding: 10px;
 }
