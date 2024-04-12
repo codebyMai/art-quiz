@@ -40,8 +40,7 @@ let questions = [
         correct : "C",
         right : "'Portrait of a Lady with a Squirrel and a Starling' is one of many that gained Hans Holbein the Younger reputation of the greatest portraitists of the 16th century. ",
         wrong : "This portrait was painted by Hans Holbein the Younger, It is a great example of Northern Renaissance style."
-    }
-    
+    }  
 ];
 // question variables
 
@@ -65,7 +64,6 @@ function displayQuestion(){
 // start quiz
 
 start.addEventListener("click",startQuiz);
-
 
 function startQuiz(){
     start.style.display = "none";
@@ -105,9 +103,11 @@ function checkAnswer(answer){
         reStartQuiz()
     }
 }
+
 // display score alert 
 
 function displayScore(){
+   
     const scorePerCent = Math.round(100 * score/questions.length);
-    alert(`You got ${ scorePerCent } % right!`);
+    alert(`You got ${ scorePerCent } % right!`);  
 }
