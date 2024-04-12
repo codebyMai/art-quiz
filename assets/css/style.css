@@ -39,8 +39,8 @@ h2 {
 }
 #background {
     background: 
-    url('../images/start.png')
-    no-repeat;
+    url('../images/start.png');
+    background-repeat: repeat-y;
     width: 100%;
     border : 3px solid #D7E8F1;
     background-size: 100% ;
