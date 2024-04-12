@@ -100,7 +100,7 @@ function checkAnswer(answer){
     }else{
         // display score and restart quiz
         displayScore();
-        reStartQuiz()
+        reStartQuiz();
     }
 }
 
