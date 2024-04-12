@@ -39,7 +39,7 @@ h2 {
 }
 #background {
     background: 
-    url('/assets/images/start.png')
+    url('../images/start.png')
     no-repeat;
     width: 100%;
     border : 3px solid #D7E8F1;
@@ -174,5 +174,5 @@ footer {
     }
     #choices {
         font-size: 0.7em;
-    }
-    }
+    } 
+}

@@ -44,7 +44,7 @@ let questions = [
 ];
 // question variables
 
-const lastQuestion = questions.length - 1;
+let lastQuestion = questions.length - 1;
 let runningQuestion = 0;
 let score = 0;
 
@@ -108,6 +108,6 @@ function checkAnswer(answer){
 
 function displayScore(){
    
-    const scorePerCent = Math.round(100 * score/questions.length);
+    let scorePerCent = Math.round(100 * score/questions.length);
     alert(`You got ${ scorePerCent } % right!`);  
 }
