@@ -39,7 +39,7 @@ let questions = [
         answerC : "Hans Holbein",
         correct : "C",
         right : "'Portrait of a Lady with a Squirrel and a Starling' is one of many that gained Hans Holbein the Younger reputation of the greatest portraitists of the 16th century. ",
-        wrong : "This portrait was painted by Hans Holbein the Younger, It is a great example of Northern Renaissance style."
+        wrong : "This portrait was painted by Hans Holbein the Younger. It is a great example of Northern Renaissance style."
     }  
 ];
 // question variables
