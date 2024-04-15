@@ -38,9 +38,8 @@ h2 {
     padding: 10px;
 }
 #background {
-    background: 
-    url('../images/start.png')
-    no-repeat;
+    background: url('../images/start.png');
+    background-repeat: repeat-y;
     width: 100%;
     border : 3px solid #D7E8F1;
     background-size: 100% ;
@@ -113,7 +112,7 @@ ul {
 }
 .answer{
     display: inline-block;
-    width : 135px;
+    width : 250px;
     text-align: center;
     border : 1px solid #D7E8F1;
     background-color: #91A2AF ;
@@ -172,7 +171,8 @@ footer {
     #question p{
         font-size: 0.7em;
     }
-    #choices {
+    .answer {
         font-size: 0.7em;
+        width: 110px;
     } 
 }
