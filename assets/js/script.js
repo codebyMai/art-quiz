@@ -1,13 +1,3 @@
-// elements selection
-
-let start = document.getElementById("start");
-let quiz = document.getElementById("quiz");
-let question = document.getElementById("question");
-let art = document.getElementById("art");
-let answerA = document.getElementById("A");
-let answerB = document.getElementById("B");
-let answerC = document.getElementById("C");
-
 // list of questions 
 
 let questions = [
@@ -22,13 +12,13 @@ let questions = [
         wrong : "This portrait was painted by Gustav Klimt, a prominent member of the Vienna Secession movement."
     },
     {
-        question : "The artist who painted this portrait has famously offered to repaint Michelangelo's Sistine Chapel. What was his name? ",
+        question : "The artist who painted this portrait has famously offered to repaint Michelangelo's Sistine Chapel. What was his name?",
         art : "assets/images/elgreco.png",
         answerA : "Claude Monet",
         answerB : "El Greco",
         answerC : "Henri Rousseau",
         correct : "B",
-        right : "Dominikos Theotokopoulos widely known as El Greco painted 'A Boy Blowing on an Ember to Light a Candle'",
+        right : "Dominikos Theotokopoulos widely known as El Greco painted 'A Boy Blowing on an Ember to Light a Candle'.",
         wrong : "Correct answer is El Greco. You might want to brush up on your Spanish Renaissance knowledge."
     },
     {
@@ -38,10 +28,21 @@ let questions = [
         answerB : "Georges Seurat",
         answerC : "Hans Holbein",
         correct : "C",
-        right : "'Portrait of a Lady with a Squirrel and a Starling' is one of many that gained Hans Holbein the Younger reputation of the greatest portraitists of the 16th century. ",
+        right : "'Portrait of a Lady with a Squirrel and a Starling' is one of many that gained Hans Holbein the Younger reputation of the greatest portraitists of the 16th century.",
         wrong : "This portrait was painted by Hans Holbein the Younger. It is a great example of Northern Renaissance style."
     }  
 ];
+
+// elements selection
+
+let start = document.getElementById("start");
+let quiz = document.getElementById("quiz");
+let question = document.getElementById("question");
+let art = document.getElementById("art");
+let answerA = document.getElementById("A");
+let answerB = document.getElementById("B");
+let answerC = document.getElementById("C");
+
 // question variables
 
 let lastQuestion = questions.length - 1;

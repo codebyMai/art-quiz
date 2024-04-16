@@ -93,6 +93,7 @@ The website consists of two sections.
 Both sections feature a header and a footer.
 
 ![header](assets/docs/header.png)
+
 ![footer](assets/docs/footer.png)
 
 #### Start Page
@@ -100,7 +101,7 @@ Both sections feature a header and a footer.
 Start page contains:
 * Simple quiz instructions. 
 * Start Quiz button which opens the Quiz Page.
-* Collection of paintings as a background to create the mood of art appreciation.
+* Collection of paintings as a background to create the mood for art appreciation.
 
 ![Start Page](assets/docs/start-page.png)
 
@@ -152,19 +153,18 @@ It has been found to be responsive on all of the above.
 
 ### W3C Validator
 
-![HTML](assets/docs/html.png)
+![HTML](assets/docs/html-test.png)
 
 
 ### W3C CSS Validator
 
-CSS - No syntax errors were found using Jigsaw css validator.
-![CSS](assets/docs/css.png)
+![CSS](assets/docs/css-test.png)
 
 
 ### JSHint Validator
 
-CSS - No syntax errors were found using Jigsaw css validator.
 ![JavaScript](assets/docs/jshint.png)
+
 
 ### Accessibility
 
@@ -176,6 +176,7 @@ The accessibility was confirmed by running it through lighthouse in devtools.
 
 ![Lighthouse](assets/docs/light.png)
 
+Overal score was affected by the weight of images included. 
 
 ## Deployment 
 
@@ -232,7 +233,10 @@ The page was created using VS Code and deployed to Github.
 * [W3 School](https://www.w3schools.com)
 * [Stackoverflow](https://stackoverflow.com/)
 * [Demystifying The CSS Display Property](https://coderpad.io/blog/development/demystifying-the-css-display-property/)
+
 Following tutorials helped me to understand the mechanics of bulding a quiz in JavaScript:
+
+* [How to Make a Simple JavaScript Quiz](https://www.sitepoint.com/simple-javascript-quiz/)
 * [How To Make Quiz App Using JavaScript](https://www.youtube.com/watch?v=PBcqGxrr9g8)
 * [Let’s Build a Multiple Choice Quiz App With JavaScript](https://webdesign.tutsplus.com/multiple-choice-quiz-app-with-javascript--cms-107756t)
 * [Create a Multiple Choice Quiz App Using JavaScript](https://www.youtube.com/watch?v=49pYIMygIcU)
